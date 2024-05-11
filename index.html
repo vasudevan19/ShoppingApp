@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopX</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-top">
+            <p>Free shipping available on all orders !</p>
+        </div>
+        <div class="navbar">
+            <div class="logo">ShopX</div>
+            <div class="nav-left">
+
+                <!-- <div class="nav-links">
+                    <ul>
+                        <a href="#">
+                            <li>Bags</li>
+                        </a>
+                        <a href="#">
+                            <li>Shoes</li>
+                        </a>
+                        <a href="#">
+                            <li>Lookbook</li>
+                        </a>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="nav-right">
+                <a href="#products"><i class="bx bx-search"></i></a>
+                <a href=""><i class="bx bxs-user"></i></a>
+                <div class="cart-bag">
+                    <i class="bx bx-shopping-bag cart-bag-icon"></i>
+                    <span class="cart-value">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="cart-page">
+        <div class="cart-head">
+        <h2>Cart Page</h2>
+        <i class='bx bx-x close-btn' ></i>
+         </div>
+        <div class="cart-items-container">
+         
+        </div>
+    
+        <div class="total-container">
+            <p class="total">Subtotal(0 items) $ 0</p>
+            <button class="payment">Payment</button>
+        </div>
+
+    </div>
+
+    <!-- Showcase -->
+
+    <section class="showcase">
+        <div class="showcase-text">
+            <h1>Best Quality in affordable Price</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odit repellat, praesentium cum porro
+                adipisci explicabo! Veniam placeat pariatur laudantium voluptatum ipsa inventore, cum magnam.</p>
+            <a href="#"><button>Shop Now</button></a>
+        </div>
+    </section>
+    <!-- about -->
+    <section class="about">
+        <p><span>L</span>orem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates ipsum odit eos, natus velit aliquid quo commodi perferendis ea voluptatem suscipit nulla dolores
+            ipsa sed. Quis placeat laboriosam fugiat inventore! adipisicing elit. Odit ab, temporibus minima consequatur
+            esse atque unde rerum impedit quo porro, quis odio molestias illo quidem voluptates, labore sunt sapiente
+            eligendi.</p>
+        <div class="middle-line"></div>
+        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum pariatur amet
+            recusandae impedit, totam veniam ad necessitatibus quisquam omnis vitae ratione optio deserunt enim quas
+            repudiandae quia sed, ex eligendi!consectetur adipisicing elit. Aspernatur ipsam quia aliquam aperiam fugiat
+            modi molestias tempora, quis eligendi. Eum.</p>
+    </section>
+
+    <!-- Service -->
+
+    <section class="service-details">
+        <div class="top">
+            <h2>why we are best in UK</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ad ullam saepe magnam vel sed nemo dolorum
+                adipisci numquam possimus?</p>
+        </div>
+        <div class="bottom">
+            <div class="quality">
+                <i class='bx bx-line-chart'></i>
+                <h3>Quality Products</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur laudantium suscipit alias
+                    fuga vel.</p>
+            </div>
+            <div class="delivery">
+                <i class='bx bxs-plane-alt'></i>
+                <h3>Fast Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur laudantium suscipit alias
+                    fuga vel.</p>
+            </div>
+            <div class="support">
+                <i class='bx bx-support'></i>
+                <h3>24/7 Online Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur laudantium suscipit alias
+                    fuga vel.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product-->
+
+    <section id="products">
+        <div class="product-top">
+            <div class="categories">
+                <div class="category-text">
+                    <h2>Categories</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita soluta sed. </p>
+                </div>
+                <div class="categories-btns">
+                    <button class="filter-btns" onclick="filterProduct('all')">All</button>
+                    <button class="filter-btns" onclick="filterProduct('Topwear')">Topwear</button>
+                    <button class="filter-btns" onclick="filterProduct('Skirt')">Skirt</button>
+                    <button class="filter-btns" onclick="filterProduct('Jacket')">Jacket</button>
+                    <button class="filter-btns" onclick="filterProduct('Watch')">Watch</button>
+                </div>
+
+            </div>
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Search">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="product-container">
+
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact">
+        <div class="contact-div">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos deleniti exercitationem qui aliquid quod,
+                voluptatibus numquam omnis commodi assumenda ad eligendi nobis, eum maiores sit.</p>
+            <div class="email-box">
+                <input type="email" placeholder="Enter your email address">
+                <button>Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <hr style="color:rgba(219, 212, 212, 0.13);border-width: 1px; margin: 4rem 2rem 1.5rem;">
+    <footer>
+        <div class="quick-links">
+            <ul>
+                <li>Quick links</li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Lookbook</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <ul>
+                <li>Info</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Shopping policy</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="mission">
+            <h4>Our Mission</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, perspiciatis.</p>
+            <div class="social-icon">
+                <a href="#"> <i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

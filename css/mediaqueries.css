@@ -1,0 +1,68 @@
+@media screen and (max-width:620px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    .product-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .showcase-text h1{
+        font-size: 25px;
+    }
+    .showcase-text{
+        padding-top: 8rem;
+    }
+    .email-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .email-box input{
+        width: 200px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer ul {
+       margin-bottom: 20px;
+    
+    }
+   
+    .mission{
+        width: 100%;
+    }
+    
+    .social-icon i {
+        font-size: 24px;
+    }
+    .cart-page{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:425px){
+
+    .showcase-text h1{
+        font-size: 18px;
+    }
+    .showcase-text{
+        padding-top: 5rem;
+    }
+    .showcase-text p{
+        font-size: 10px;
+    }
+    .header-top{
+        font-size: 10px;
+    }
+    .cart-items{
+        width: 120px;
+    }
+}
